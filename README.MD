@@ -10,16 +10,16 @@
 
 * Put your application files in **/www** folder
 
-* Install laravel with composer inside **/www** folder. Like this
+Install laravel with composer inside **/www** folder. Like this
     
-    `composer create-project --prefer-dist laravel/laravel laravel-test 5.2.29`
+    composer create-project --prefer-dist laravel/laravel laravel-test 5.2.29
     
-    - You must have installed composer (need PHP) at your PC
-        - https://getcomposer.org/download/
+- You must have installed composer (need PHP) at your PC
+    - https://getcomposer.org/download/
     
 
 * Mysql data files will be in **/docker/mysql/data** folder
 
-You can create your apache image instead of **apps4net/laraver-apache** with the command:
+You can create your apache image instead of **apps4net/laraver-apache** with the command
 
     docker build -t laravel-apache docker/apache
