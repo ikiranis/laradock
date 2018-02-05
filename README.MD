@@ -13,6 +13,10 @@
 * Install laravel with composer inside **/www** folder. Like this
 
     **composer create-project --prefer-dist laravel/laravel laravel-test 5.2.29**
+    
+    - You must have installed PHP and composer at your PC
+        - https://getcomposer.org/download/
+    
 
 * Mysql data files will be in **/docker/mysql/data** folder
 
