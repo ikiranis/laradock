@@ -8,7 +8,7 @@ Install laravel with composer inside **/www** folder. Like this
     
     composer create-project --prefer-dist laravel/laravel laradock 5.2.29
     
-- You must have installed composer (need PHP) at your PC
+* You must have installed composer (need PHP) at your PC
     - https://getcomposer.org/download/
 
 * Run **docker-compose up -d**
