@@ -16,7 +16,7 @@ services:
       - ./docker/mysql/data:/var/lib/mysql
 
   apache-server:
-    image: apps4net/laravel-apache:1.0
+    image: apps4net/laravel-apache:1.1
     ports:
       - ${APP_PORT}
 #      - "443:443"
